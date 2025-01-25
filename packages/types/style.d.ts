@@ -39,7 +39,7 @@ export interface Style {
 
   aspectRatio?: number | string;
   bottom?: number | string;
-  display?: 'flex' | 'none';
+  display?: 'flex' | 'none' | "table";
   left?: number | string;
   position?: 'absolute' | 'relative' | 'static';
   right?: number | string;
